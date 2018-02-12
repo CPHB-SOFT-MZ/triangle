@@ -1,6 +1,15 @@
 # triangle
 School assignment for testing kinds of triangles
 
+## Test cases
+| input | expected output | actual output |
+|-------|-----------------|---------------|
+|(4,4,4)|Equilateral      |    -          |
+|(4,4,2)|Isosceles| - |
+|(4,3,2)|Scalene| - |
+|(0,2,2)|Not a triangle| - |
+|(-1,2,2)|Not a triangle| - |
+
 ## Prerequisites
 - You need to have Java 1.8 installed
 - You need to have Maven installed
