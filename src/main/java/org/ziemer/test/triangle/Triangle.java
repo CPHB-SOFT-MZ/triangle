@@ -6,6 +6,10 @@ public class Triangle {
             return "Not a triangle";
         }
 
+        if (sideA + sideB < sideC || sideA + sideC < sideB || sideC + sideB < sideA) {
+            return "Not a triangle";
+        }
+
         if (sideA == sideB && sideB == sideC) {
             return "Equilateral";
         } else if (sideA == sideB || sideB == sideC || sideA == sideC) {
