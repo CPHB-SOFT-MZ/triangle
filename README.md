@@ -3,7 +3,7 @@ School assignment for testing kinds of triangles
 
 ## Test cases
 |#| input | expected output | actual output |
-|-------|-----------------|---------------|
+|-|-------|-----------------|---------------|
 |1|(4,4,4)|Equilateral      |    -          |
 |2|(4,4,2)|Isosceles| - |
 |3|(4,3,2)|Scalene| - |
